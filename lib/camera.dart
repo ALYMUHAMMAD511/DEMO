@@ -65,9 +65,9 @@ class _CameraState extends State<Camera> {
               imageWidth: img.width,
               imageMean: 127.5,
               imageStd: 127.5,
-              numResultsPerClass: 1,
-              numBoxesPerBlock: 2,
-              threshold: 0.6,
+              numResultsPerClass: 5,
+              numBoxesPerBlock: 5,
+              threshold: 0.45,
             ).then((recognitions) {
               int endTime = DateTime.now().millisecondsSinceEpoch;
               if (kDebugMode)

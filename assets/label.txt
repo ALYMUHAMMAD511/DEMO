@@ -1,0 +1,5 @@
+long-pants
+long-sleeve
+short-pants
+short-sleeve
+sleeveless
